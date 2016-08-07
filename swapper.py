@@ -17,6 +17,7 @@ while True:
         (x1, y1, w1, h1) = faces[0]
         (x2, y2, w2, h2) = faces[1]
 
+        # Get ROIs
         roi_face1 = img[y1:y1+h1, x1:x1+w1]
         roi_face2 = img[y2:y2+h2, x2:x2+w2]
 
@@ -26,11 +27,12 @@ while True:
         img[y2:y2+h2, x2:x2+w2] = roi_face1
         img[y1:y1+h1, x1:x1+w1] = roi_face2
 
-    # output new image
+    # output new frame
     cv2.imshow('img', img)
-    # cv2.waitKey(0)
+
+    # Exit loop
     k = cv2.waitKey(30) & 0xff
-    if k == 27:
+    if k == ord('q'):
         break
 
 # Dealloc
