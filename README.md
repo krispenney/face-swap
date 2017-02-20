@@ -7,7 +7,7 @@ This project is an experiment with face detection and image manipulation.
 * <a href="http://opencv.org">OpenCV3</a>
 
 ## Resources
-The following resources helped me about computer vision and image processing.
+The following resources helped me learn about computer vision and image processing.
 
 * <a href="https://www.youtube.com/playlist?list=PLQVvvaa0QuDdttJXlLtAJxJetJcqmqlQq">sentdex</a> - Youtube Channel with in-depth python tutorials on many topics.
 * <a href="http://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_Image_Object_Detection_Face_Detection_Haar_Cascade_Classifiers.php">Face Detection using Haar Cascade Classifiers</a>
