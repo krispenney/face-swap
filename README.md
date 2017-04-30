@@ -1,6 +1,6 @@
 # face-swap
 
-This project is an experiment with face detection and image manipulation.
+This project is an ongoing experiment with face detection and image manipulation. 
 
 ## Dependencies
 * <a href="http://www.numpy.org" target="_blank">numpy</a>
